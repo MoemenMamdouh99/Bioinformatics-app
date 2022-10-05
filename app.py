@@ -31,12 +31,11 @@ global sequence
 # if fasta_upload is not None:
 #     sequence = StringIO.read(fasta_upload)
     
-# else:
- sequence_input=''
- sequence = st.text_area('the sequence',sequence_input,height=250)
- sequence= sequence.splitlines()
- sequence = sequence[1:]
- sequence= ''.join(sequence)
+sequence_input=''
+sequence = st.text_area('the sequence',sequence_input,height=250)
+sequence= sequence.splitlines()
+sequence = sequence[1:]
+sequence= ''.join(sequence)
 
 st.write(""" 
 ***
