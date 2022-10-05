@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd 
 from PIL import Image
-import plotly.express as px
+import plotly_express as px
 from Bio.Seq import Seq
 from Bio import SeqIO
 
