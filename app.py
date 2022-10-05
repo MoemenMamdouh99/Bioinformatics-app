@@ -82,9 +82,10 @@ df = df.rename({0:'Count'},axis= 'columns')
 df.reset_index(inplace=True)
 df = df.rename(columns={'index':'nucleotide'})
 # print(df)
-# displaying pie chart
+# displaying bar chart
 
-fig  = sns.barplot(data=df,x=df['nucleotide'],y=df['Count'])
+fig  = sns.barplot(data=df,x= 'nucleotide',y= 'Count')
+
 st.write(fig)
 
 st.write(''' 
