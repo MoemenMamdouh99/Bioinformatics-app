@@ -6,9 +6,9 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 
 
-# image = Image.open(r'C:\Users\lenovo\OneDrive\Desktop\python\DNA.PNG',mode='r')
+image = Image.open(r'cd.png',mode='r')
 
-# st.image(image,use_column_width=True)
+st.image(image,use_column_width=True)
 
 st.title(""" 
 
