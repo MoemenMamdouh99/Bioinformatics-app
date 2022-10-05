@@ -6,7 +6,7 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 
 
-image = Image.open(r'C:\Users\lenovo\OneDrive\Desktop\python\my projects\bioinformatics app\DNA.PNG')
+image = Image.open(r'C:\Users\lenovo\OneDrive\Desktop\python\DNA.PNG',mode='r)
 
 st.image(image,use_column_width=True)
 
