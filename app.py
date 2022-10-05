@@ -107,7 +107,7 @@ st.write('''
 
 st.header('Translation of mRNA')
 
-myseq = Seq(sequence)
+myseq = Seq(sequence[1:])
 
 st.write(myseq.translate())
 
